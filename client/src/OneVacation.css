@@ -1,0 +1,19 @@
+
+  input {
+    background-color: #ffffff;
+
+  }
+  .card{
+      width: 300px;
+      float: left;
+      margin: 10px;
+      max-width: 300px;
+
+  }
+  
+
+  .column {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+  }

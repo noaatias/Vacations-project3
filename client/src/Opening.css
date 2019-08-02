@@ -1,0 +1,10 @@
+.opening{
+    position: relative;
+    background: url('https://www.techexplorist.com/wp-content/uploads/2018/08/vacation.jpg') no-repeat  center center/cover ;
+    height: 100vh;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    text-align: -webkit-center;
+  
+}
