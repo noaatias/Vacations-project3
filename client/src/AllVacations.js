@@ -21,7 +21,6 @@ const AllVacations = ({
       //call to the get vacations every 3 seconds
       getVacations();
       getVacationsfollowedByUser();
-      console.log("get");
     }, 3000);
     return () => clearInterval(interval);
   }, []);

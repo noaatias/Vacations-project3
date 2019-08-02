@@ -10,7 +10,6 @@ const Chart = ({vacations, getVacations}) => {
     getVacations();
     const interval = setInterval(() => {
       getVacations();
-      console.log("get");
     }, 3000);
     return () => clearInterval(interval);
   }, [getVacations]);
