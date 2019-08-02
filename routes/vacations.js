@@ -13,7 +13,7 @@ let pool;
     password: "mxecaibhl0cj2dqg",
     database: "we0wa6t45r5wzpsj",
     waitForConnections: true,
-    connectionLimit: 10,
+    connectionLimit: 100,
     queueLimit: 0,
     dateStrings: true
   });
