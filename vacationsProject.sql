@@ -1,30 +1,31 @@
-CREATE TABLE `following` (
-  `idfollowing` int(11) NOT NULL AUTO_INCREMENT,
-  `userID` int(11) DEFAULT NULL,
-  `vacationID` int(11) DEFAULT NULL,
-  PRIMARY KEY (`idfollowing`)
-) ENGINE=InnoDB AUTO_INCREMENT=76 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+use we0wa6t45r5wzpsj;
+CREATE TABLE following (
+  idfollowing int(11) NOT NULL AUTO_INCREMENT,
+  userID int(11) DEFAULT NULL,
+  vacationID int(11) DEFAULT NULL,
+  PRIMARY KEY (idfollowing)
+) ;
 
-CREATE TABLE `blabla` (
-  `userID` int(11) NOT NULL AUTO_INCREMENT,
-  `Email` varchar(2000) DEFAULT NULL,
-  `userName` varchar(1000) DEFAULT NULL,
-  `lastName` varchar(10000) DEFAULT NULL,
-  `password` varchar(100) DEFAULT NULL,
-  `isAdmin` tinyint(4) DEFAULT NULL,
-  PRIMARY KEY (`userID`)
-) ENGINE=InnoDB AUTO_INCREMENT=112 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+CREATE TABLE users (
+  userID int(11) NOT NULL AUTO_INCREMENT,
+  Email varchar(2000) DEFAULT NULL,
+  userName varchar(1000) DEFAULT NULL,
+  lastName varchar(10000) DEFAULT NULL,
+  password varchar(100) DEFAULT NULL,
+  isAdmin tinyint(4) DEFAULT NULL,
+  PRIMARY KEY (userID)
+) ;
 
-CREATE TABLE `vacations` (
-  `vacationID` int(11) NOT NULL AUTO_INCREMENT,
-  `Descripe` varchar(1000) DEFAULT NULL,
-  `startDate` date DEFAULT NULL,
-  `Price` int(11) DEFAULT NULL,
-  `Img` varchar(10000) DEFAULT NULL,
-  `followers` int(11) DEFAULT NULL,
-  `endDate` date DEFAULT NULL,
-  PRIMARY KEY (`vacationID`)
-) ENGINE=InnoDB AUTO_INCREMENT=33 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+CREATE TABLE vacations (
+  vacationID int(11) NOT NULL AUTO_INCREMENT,
+  Descripe varchar(1000) DEFAULT NULL,
+  startDate date DEFAULT NULL,
+  Price int(11) DEFAULT NULL,
+  Img varchar(10000) DEFAULT NULL,
+  followers int(11) DEFAULT NULL,
+  endDate date DEFAULT NULL,
+  PRIMARY KEY (vacationID)
+) ;
 
 INSERT INTO vacations ( Descripe, startDate, Price,Img,followers,endDate )
 VALUES ('thailand','2020-05-09','145','https://www.hootholidays.com.au/media/catalog/category/Thailand-Banner.jpg','3','2020-06-19');
@@ -43,4 +44,3 @@ VALUES ('philiphines','2020-09-08','999','https://dsvsbigncb06y.cloudfront.net/s
 INSERT INTO vacations ( Descripe, startDate, Price,Img,followers,endDate )
 VALUES ('japan','2019-09-08','234','https://ssl.tzoo-img.com/images/tzoo.24069.0.793912.Lauterbrunnen-switzerland.jpg?width=412&spr=3','0','2020-06-19'
 );
-INSERT INTO `we0wa6t45r5wzpsj`.`users` (`userID`, `Email`, `userName`, `lastName`, `password`, `isAdmin`) VALUES ('42', 'lo444em@gmail.com', 'loti', 'atkrias', '$2a$10$NRZgcUoLfsvf06hDJl6hNevq6Wih2UJ1uRBCnVYLtGz7l/ILWmvZy', '1');

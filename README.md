@@ -6,9 +6,9 @@ In this project, you can see vacations, details of vacation, and follow on vacat
 ## Download MySQL
 
 Download MySQL Workbench and in the connection insert the details :<br>
-host: "localhost",<br>
-user: "root",<br>
-password: "123456"<br>
+host: "	e764qqay0xlsc4cz.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",<br>
+user: "wdy0hvnqcoyk2tnk",<br>
+password: "mxecaibhl0cj2dqg"<br>
 ## Create database and tables
 Download and run the file in MySQL Workbench [vacationsProject.sql ](/vacationsProject.sql).
 
@@ -19,7 +19,7 @@ And after this,
 ### `npm start`
 
 Runs the app in the development mode.<br>
-Open [http://localhost:4000](http://localhost:4000) to view it in the browser.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
