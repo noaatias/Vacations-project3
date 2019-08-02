@@ -17,3 +17,6 @@
     width: 50%;
     padding: 0 10px;
   }
+  .all{
+    margin-left: inherit;
+  }

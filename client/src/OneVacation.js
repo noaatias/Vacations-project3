@@ -26,7 +26,7 @@ const OneVacation = ({
     <Card className="card">
       <img src={Img} style={{width: "100%", height: "16rem"}} />
 
-      <div className="container">
+      <div className="all">
         <h1>{Descripe}</h1>
         <p className="price">Price:{Price}$</p>
         <p>startDate:{startDate}</p>
