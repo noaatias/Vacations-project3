@@ -21,7 +21,6 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/vacations', vacationsRouter);
-app.use('/users.1', users1Router);
 app.use('/auth', authRouter);
 
 //Serve static asset in production
