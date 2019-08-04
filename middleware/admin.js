@@ -16,7 +16,7 @@ module.exports = async function(req, res, next) {
 
   try {
     if (rows[0].isAdmin === null) {
-      return res.status(400).json({errors: [{msg: "User is not Admin"}]});
+      return res.status(400).json();
     }
     next();
   } catch (err) {

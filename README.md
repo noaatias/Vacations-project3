@@ -11,6 +11,7 @@ user: "wdy0hvnqcoyk2tnk",<br>
 password: "mxecaibhl0cj2dqg"<br>
 ## Create database and tables
 Download and run the file in MySQL Workbench [vacationsProject.sql ](/vacationsProject.sql).
+## if you want to run this app in local 
 
 ## Client side
 In this client-task directory, you need run:
@@ -28,5 +29,9 @@ In this server-task directory, you need run:
 ### `npm install`
 And after this,
 ### `npm start`
+
+
+## deployment 
+ Open [https://vacations-server.herokuapp.com/](https://vacations-server.herokuapp.com/) to view it in the browser.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

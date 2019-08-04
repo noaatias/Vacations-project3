@@ -24,7 +24,7 @@ const OneVacation = ({
 
   return (
     <Card className="card">
-      <img src={Img} style={{width: "100%", height: "16rem"}} />
+      <img src={Img} style={{width: "100%", height: "16rem", borderRadius: ".25rem"}} />
 
       <div className="all">
         <h1>{Descripe}</h1>

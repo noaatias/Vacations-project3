@@ -42,5 +42,5 @@ INSERT INTO vacations ( Descripe, startDate, Price,Img,followers,endDate )
 VALUES ('philiphines','2020-09-08','999','https://dsvsbigncb06y.cloudfront.net/site/diving/philippines/liveaboard-philippines-coron-palawan-xxl.jpg','0','2021-06-19'
 );
 INSERT INTO vacations ( Descripe, startDate, Price,Img,followers,endDate )
-VALUES ('japan','2019-09-08','234','https://ssl.tzoo-img.com/images/tzoo.24069.0.793912.Lauterbrunnen-switzerland.jpg?width=412&spr=3','0','2020-06-19'
+VALUES ('japan','2019-09-08','234','https://d36tnp772eyphs.cloudfront.net/blogs/1/2011/05/japan-1200x729.jpg','0','2020-06-19'
 );

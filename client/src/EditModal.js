@@ -137,7 +137,7 @@ EditModal.propTypes = {
   getVacations: PropTypes.func,
 
   getVacationData: PropTypes.func.isRequired,
-  vacation: PropTypes.object,
+  vacation: PropTypes.array,
   editVacation: PropTypes.func.isRequired,
   loading: PropTypes.bool
 };
